@@ -2,10 +2,9 @@ replicaCount: 1
 fullnameOverride: api-gateway
 image:
   repository: lehardocker/api-gateway
-  tag: sha-fb6c3f1
+  tag: sha-bc2f6d2
   pullPolicy: Always
 service:
   type: ClusterIP
   port: 8080
   targetPort: 8080
-
