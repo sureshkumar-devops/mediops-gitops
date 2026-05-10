@@ -2,7 +2,7 @@ replicaCount: 1
 fullnameOverride: api-gateway
 image:
   repository: lehardocker/api-gateway
-  tag: sha-a92b835
+  tag: sha-bd6dba5
   pullPolicy: Always
 service:
   type: ClusterIP
