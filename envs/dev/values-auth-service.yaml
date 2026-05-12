@@ -2,7 +2,7 @@ replicaCount: 1
 fullnameOverride: auth-service
 image:
   repository: lehardocker/auth-service
-  tag: sha-520e137
+  tag: sha-e6ededf
   pullPolicy: Always
 service:
   type: ClusterIP
