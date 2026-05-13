@@ -1,0 +1,13 @@
+replicaCount: 2
+
+fullnameOverride: manufacturing-service
+
+image:
+  repository: lehardocker/manufacturing-service
+  tag: v1.0.0
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 8085
+  targetPort: 8085

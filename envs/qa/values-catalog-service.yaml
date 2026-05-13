@@ -1,0 +1,10 @@
+replicaCount: 1
+fullnameOverride: drug-catalog-service
+image:
+  repository: lehardocker/drug-catalog-service
+  tag: sha-a0017b8
+  pullPolicy: Always
+service:
+  type: ClusterIP
+  port: 8082
+  targetPort: 8082

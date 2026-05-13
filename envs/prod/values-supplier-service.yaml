@@ -1,0 +1,13 @@
+replicaCount: 2
+
+fullnameOverride: supplier-service
+
+image:
+  repository: lehardocker/supplier-service
+  tag: v1.0.0
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 8084
+  targetPort: 8084
