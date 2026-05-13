@@ -1,0 +1,10 @@
+replicaCount: 1
+fullnameOverride: qc-service
+image:
+  repository: lehardocker/qc-service
+  tag: sha-a0017b8 
+  pullPolicy: Always
+service:
+  type: ClusterIP
+  port: 8086
+  targetPort: 8086
