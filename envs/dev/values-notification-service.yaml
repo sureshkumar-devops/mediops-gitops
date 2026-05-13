@@ -1,0 +1,10 @@
+replicaCount: 1
+fullnameOverride: notification-service
+image:
+  repository: lehardocker/notification-service
+  tag: sha-a0017b8
+  pullPolicy: Always
+service:
+  type: ClusterIP
+  port: 3000
+  targetPort: 3000
