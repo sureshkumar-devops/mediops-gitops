@@ -2,9 +2,8 @@ replicaCount: 1
 fullnameOverride: inventory-service
 image:
   repository: lehardocker/inventory-service
-  tag: v1.0.0
+  tag: sha-f310f15
   pullPolicy: Always
-
 service:
   type: ClusterIP
   port: 8083
