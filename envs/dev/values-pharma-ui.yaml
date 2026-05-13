@@ -1,0 +1,10 @@
+replicaCount: 1
+fullnameOverride: pharma-ui
+image:
+  repository: lehardocker/pharma-ui
+  tag: sha-66feede
+  pullPolicy: Always
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 80
