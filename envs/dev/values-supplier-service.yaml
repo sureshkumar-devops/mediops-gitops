@@ -2,7 +2,7 @@ replicaCount: 1
 fullnameOverride: supplier-service
 image:
   repository: lehardocker/supplier-service
-  tag: sha-f4419bc
+  tag: sha-20038d3
   pullPolicy: Always
 service:
   type: ClusterIP
