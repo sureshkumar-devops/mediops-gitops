@@ -2,7 +2,7 @@ replicaCount: 1
 fullnameOverride: inventory-service
 image:
   repository: lehardocker/inventory-service
-  tag: sha-bd9d3e8
+  tag: sha-71fdf18
   pullPolicy: Always
 service:
   type: ClusterIP
