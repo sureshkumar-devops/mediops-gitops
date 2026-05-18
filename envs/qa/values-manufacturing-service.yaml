@@ -2,7 +2,7 @@ replicaCount: 1
 fullnameOverride: manufacturing-service
 image:
   repository: lehardocker/manufacturing-service
-  tag: sha-a0017b8
+  tag: sha-b718223
   pullPolicy: Always
 service:
   type: ClusterIP
