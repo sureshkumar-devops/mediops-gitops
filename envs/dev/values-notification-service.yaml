@@ -2,7 +2,7 @@ replicaCount: 1
 fullnameOverride: notification-service
 image:
   repository: lehardocker/notification-service
-  tag: sha-fbfed91
+  tag: sha-0ba0ce2
   pullPolicy: Always
 service:
   type: ClusterIP
