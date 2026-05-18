@@ -2,7 +2,7 @@ replicaCount: 1
 fullnameOverride: drug-catalog-service
 image:
   repository: lehardocker/drug-catalog-service
-  tag: sha-f310f15
+  tag: sha-05f7dd6
   pullPolicy: Always
 service:
   type: ClusterIP
