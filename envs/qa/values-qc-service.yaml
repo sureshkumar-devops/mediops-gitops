@@ -2,7 +2,7 @@ replicaCount: 1
 fullnameOverride: qc-service
 image:
   repository: lehardocker/qc-service
-  tag: sha-a0017b8 
+  tag: sha-eecceab
   pullPolicy: Always
 service:
   type: ClusterIP
